@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --color-bg-intro: hsl(217, 28%, 15%);
+    --color-bg-main: hsl(218, 28%, 13%);
+    --color-bg-footer: hsl(216, 53%, 9%);
+    --color-bg-testimonials: hsl(219, 30%, 18%);
+    --color-cyan: hsl(176, 68%, 64%);
+    --color-blue: hsl(198, 60%, 50%);
+    --color-error: hsl(0, 100%, 63%);
+   
+
+}
+
+body {
+    
+  
+    justify-content: center; 
+    align-items: center;    
+    background-color: var(--color-bg-main);
+    box-sizing: border-box; 
+    
+}
+
+
+.section-content {
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top:50px ;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.navbar .nav-menu .nav-link {
+    padding: 10px 18px ;
+    font-size:15px;
+    color: white;
+
+    
+}
+.nav-menu .nav-link:hover {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pric{
+    
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content{
+   
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 20px;
+}
+.case1{
+    color: white;
+     padding: 50px  35px  35px  20px ;
+     background-color: hsl(219, 30%, 18%);
+    text-align: center;
+    border-radius: 8px;
+    
+
+}
+
+
+
+.profile-1{
+    display: flex;
+    padding-top: 2rem;
+    gap: 10px;
+    
+}
+.profile-1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 10px;
+    ;
+}
+.profile-info{
+    font-size: 0.5rem;
+    padding-top: 1rem;
+    /* padding-bottom: 50px; */
+    text-align: left;
+}
+#text{
+    margin-top: -10px;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 0.8rem;
+    
+}
+ .quote{
+  margin-left: 80px;
+  margin-bottom: -20px;
+ }
